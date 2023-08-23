@@ -1,5 +1,5 @@
-
 const path = require('path')
+const CleanPlugin = require('clean-webpack-plugin');
 module.exports = {
     mode: 'development',     // set mode option, 'development' or 'production'
     // context: __dirname + '/src', // Adds a context explicitly
@@ -12,6 +12,13 @@ module.exports = {
     devServer: {
         static: { 
             directory: path.resolve(__dirname, './'),
+            // publicPath: 'assets/scripts/'
+        },
+        devMiddleware:{
+            writeToDisk: true
         }
-    }
+    },
+    plugins: [
+        new CleanPlugin.CleanWebpackPlugin()
+    ]
 }
