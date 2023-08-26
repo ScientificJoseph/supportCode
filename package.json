@@ -10,6 +10,7 @@
   },
   "author": "Joseph Jackson",
   "license": "ISC",
+  "browserslist": "> .2%, not dead",
   "devDependencies": {
     "@babel/core": "^7.22.11",
     "@babel/preset-env": "^7.22.10",
