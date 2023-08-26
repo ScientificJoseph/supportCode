@@ -1,4 +1,3 @@
-"use strict";
 /*
  * ATTENTION: The "eval" devtool has been used (maybe by default in mode: "development").
  * This devtool is neither made for production nor for readable output files.
@@ -7,11 +6,23 @@
  * or disable the default devtool with "devtool: false".
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
-self["webpackHotUpdatesupportcode"]("main",{},
+self["webpackHotUpdatesupportcode"]("main",{
+
+/***/ "./src/app.js":
+/*!********************!*\
+  !*** ./src/app.js ***!
+  \********************/
+/***/ (() => {
+
+eval("const button = document.querySelector('button');\r\n\r\nbutton.addEventListener('click', () => {\r\n  // do something...\r\n  const div = document.createElement('div')\r\n  const h1 = document.createElement('h1')\r\n  const text = document.createTextNode('Good Morning Dawn. Sing Bella! Sing.')\r\n  h1.appendChild(text)\r\n  div.appendChild(h1)\r\n  document.body.appendChild(div)\r\n});\n\n//# sourceURL=webpack://supportcode/./src/app.js?");
+
+/***/ })
+
+},
 /******/ function(__webpack_require__) { // webpackRuntimeModules
 /******/ /* webpack/runtime/getFullHash */
 /******/ (() => {
-/******/ 	__webpack_require__.h = () => ("0e9cff531e05e4efd86b")
+/******/ 	__webpack_require__.h = () => ("71b01ed42ad31a6361ea")
 /******/ })();
 /******/ 
 /******/ }

@@ -8,13 +8,13 @@
  */
 self["webpackHotUpdatesupportcode"]("main",{
 
-/***/ "./src/app.js":
-/*!********************!*\
-  !*** ./src/app.js ***!
-  \********************/
+/***/ "./node_modules/ansi-html-community/index.js":
+/*!***************************************************!*\
+  !*** ./node_modules/ansi-html-community/index.js ***!
+  \***************************************************/
 /***/ (() => {
 
-eval("const button = document.querySelector('button');\r\n\r\nbutton.addEventListener('click', () => {\r\n  // do something...\r\n  const div = document.createElement('div')\r\n  const h1 = document.createElement('h1')\r\n  const text = document.createTextNode('Good Morning Dawn. Sing Bella!')\r\n  h1.appendChild(text)\r\n  div.appendChild(h1)\r\n  document.body.appendChild(div)\r\n});\n\n//# sourceURL=webpack://supportcode/./src/app.js?");
+eval("throw new Error(\"Module build failed: Error: ENOENT: no such file or directory, open 'C:\\\\Users\\\\Joseph\\\\Desktop\\\\Full Stack Web Developemnt\\\\4 - JavaScript - The Complete Guide\\\\Section 23 - Browswe Support\\\\code\\\\supportCode\\\\node_modules\\\\ansi-html-community\\\\index.js'\");\n\n//# sourceURL=webpack://supportcode/./node_modules/ansi-html-community/index.js?");
 
 /***/ })
 
@@ -22,7 +22,7 @@ eval("const button = document.querySelector('button');\r\n\r\nbutton.addEventLis
 /******/ function(__webpack_require__) { // webpackRuntimeModules
 /******/ /* webpack/runtime/getFullHash */
 /******/ (() => {
-/******/ 	__webpack_require__.h = () => ("39b0d8c79503c668d8b1")
+/******/ 	__webpack_require__.h = () => ("9450b39d36c1e9427ba1")
 /******/ })();
 /******/ 
 /******/ }
