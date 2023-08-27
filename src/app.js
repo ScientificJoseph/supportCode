@@ -4,7 +4,7 @@
 // import 'core-js/actual/promise'; // includes compatibility tools for just promise feature
 
 const button = document.querySelector('button');
-const textParagraph = document.querySelector('p')
+const textParagraph = document.querySelector('p');
 
 button.addEventListener('click', () => {
   const text = textParagraph.textContent; // store content of p elements text
