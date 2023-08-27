@@ -12,13 +12,13 @@ button.addEventListener('click', () => {
   // console.log(promise);  
     if (navigator.clipboard) { // feature detection - code only runs in browsers where navigator.clipboard is supported. if 'falsey' fallback code is executed
       navigator.clipboard.writeText(text) // clipboard API returns a promise
-      .then((result) => {
-        console.log(result);
+      .then((result) => { // text gets added to clipboard
+        console.log(result); // console logs undefined
       })
       .catch((error) => {
-        console.log(error)
+        console.log(error) // system error message if feature is not available and fallback setup is not implimented
       })
     } else { // fallback code if feature (navigator API) is unavilable
-      alert('Feature not available...please copy manually!');
+      alert('Feature not available...please copy manually!'); // dispays error message to user and provides alternative
     }
 });
