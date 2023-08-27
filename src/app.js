@@ -1,6 +1,6 @@
 // import 'core-js'; // includes all supported features
-import 'core-js/stable'
-import 'regenerator-runtime/runtime'
+// import 'core-js/stable' // used when using entry option
+// import 'regenerator-runtime/runtime' // used when using entry option
 // import 'core-js/actual/promise'; // includes compatibility tools for just promise feature
 
 const button = document.querySelector('button');
