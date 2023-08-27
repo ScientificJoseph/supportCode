@@ -10,7 +10,7 @@ button.addEventListener('click', () => {
   const text = textParagraph.textContent; // store content of p elements text
   // const promise = new Promise();
   // console.log(promise);  
-    if (navigator.clipboard) { // feature detection - if 'falsey' fallback code is executed
+    if (navigator.clipboard) { // feature detection - code only runs in browsers where navigator.clipboard is supported. if 'falsey' fallback code is executed
       navigator.clipboard.writeText(text) // clipboard API returns a promise
       .then((result) => {
         console.log(result);
